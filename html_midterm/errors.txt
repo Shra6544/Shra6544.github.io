@@ -1,0 +1,51 @@
+Shriram Rajagopal
+
+HTML Midterm
+
+Errors in find_errors.html
+
+Line 1: Missing <!DOCTYPE html> declaration
+Error: The <!DOCTYPE html> declaration is missing at the very beginning of the document
+Fix: Add <!DOCTYPE html> at the top of the file before the opening <html> tag
+
+Line 1: Incorrect HTML structure
+Error: The <html> tag is opened but is incomplete.
+Fix: Remove the <html> tag 
+
+Line 1: Incorrect HTML structure
+Error: The </html> tag is opened but is incomplete.
+Fix: Remove the </html> tag  as it is supposed to be at the bottom of the document
+
+Line 3: Incorrect language attribute syntax
+Error: <html language="en"> should use lang, not language.
+Fix: Replace language="en" with lang="en"
+
+Line 9: Missing closing </h1> tag
+Error: The <h1> tag is missing a closing </h1>.
+Fix: Add a closing </h1> tag after "Welcome to My Error-Filled Page"
+
+Line 11: Incorrectly closed paragraph
+Error: The paragraph has no opening <p> tag and ends with a closing </p>
+Fix: Add an opening <p> tag before "This is a paragraph."
+
+Line 19: Mismatched closing list tag
+Error: There is a closing </li> tag followed by an incorrect </li>Item 6</li>
+Fix: Replace </li> with <li> before "Item 6"
+
+Line 24: Mismatched list and closing tag
+Error: The ordered list <ol> is incorrectly closed with an unordered list </ul>
+Fix: Replace </ul> with </ol> to properly close the list
+
+Line 26: Missing closing paragraph tag
+Error: The paragraph tag is not properly closed
+Fix: Add a closing </p> tag after "This is another paragraph."
+
+Line 28: Incorrect image file type
+Error: The file type .png is used instead of .jpeg
+Fix: replace .png with the correct file type .jpeg
+
+
+
+Errors in find_errors_2.html
+
+
