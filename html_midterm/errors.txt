@@ -4,45 +4,62 @@ HTML Midterm
 
 Errors in find_errors.html
 
+1.
 Line 1: Missing <!DOCTYPE html> declaration
 Error: The <!DOCTYPE html> declaration is missing at the very beginning of the document
 Fix: Add <!DOCTYPE html> at the top of the file before the opening <html> tag
 
+2.
 Line 1: Incorrect HTML structure
 Error: The <html> tag is opened but is incomplete.
 Fix: Remove the <html> tag 
 
+3.
 Line 1: Incorrect HTML structure
 Error: The </html> tag is opened but is incomplete.
 Fix: Remove the </html> tag  as it is supposed to be at the bottom of the document
 
+4.
 Line 3: Incorrect language attribute syntax
 Error: <html language="en"> should use lang, not language.
 Fix: Replace language="en" with lang="en"
 
+5.
 Line 9: Missing closing </h1> tag
 Error: The <h1> tag is missing a closing </h1>.
 Fix: Add a closing </h1> tag after "Welcome to My Error-Filled Page"
 
+6.
 Line 11: Incorrectly closed paragraph
 Error: The paragraph has no opening <p> tag and ends with a closing </p>
 Fix: Add an opening <p> tag before "This is a paragraph."
 
+7.
 Line 19: Mismatched closing list tag
 Error: There is a closing </li> tag followed by an incorrect </li>Item 6</li>
 Fix: Replace </li> with <li> before "Item 6"
 
+8.
 Line 24: Mismatched list and closing tag
 Error: The ordered list <ol> is incorrectly closed with an unordered list </ul>
 Fix: Replace </ul> with </ol> to properly close the list
 
+9.
 Line 26: Missing closing paragraph tag
 Error: The paragraph tag is not properly closed
 Fix: Add a closing </p> tag after "This is another paragraph."
 
+10.
 Line 28: Incorrect image file type
 Error: The file type .png is used instead of .jpeg
 Fix: replace .png with the correct file type .jpeg
+
+11.
+Line 28: Incorrect image file type
+Error: The file type .png is used instead of .jpeg
+Fix: replace .png with the correct file type .jpeg
+
+12.
 
 
 
