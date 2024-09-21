@@ -10,17 +10,17 @@ Error: The <!DOCTYPE html> declaration is missing at the very beginning of the d
 Fix: Add <!DOCTYPE html> at the top of the file before the opening <html> tag
 
 2.
-Line 1: Incorrect HTML structure
+Line 2: Incorrect HTML structure
 Error: The <html> tag is opened but is incomplete
 Fix: Remove the <html> tag
 
 3.
-Line 3: Incorrect language attribute syntax
+Line 2: Incorrect language attribute syntax
 Error: <html language="en"> should use lang, not language
 Fix: Replace language="en" with lang="en"
 
 4.
-Line 3: Incorrect space for <html lang="en"> tag
+Line 2: Incorrect space for <html lang="en"> tag
 Error: The <html lang="en"> tag is inside the <head> element
 Fix: Move <html lang="en"> to before <head> element, but after <!DOCTYPE html> decleration
 
@@ -51,8 +51,8 @@ Fix: Add a closing </p> tag after "This is another paragraph."
 
 10.
 Line 28: Incorrect image file type
-Error: The file type .png is used instead of .jpeg
-Fix: replace .png with the correct file type .jpeg
+Error: The file type .png is used instead of .jpg
+Fix: replace .png with the correct file type .jpg
 
 11.
 Line 30: Incorrect tag for anchor closing
@@ -72,7 +72,7 @@ Fix: Insert </table> to properly close the table
 14.
 Line 46: Incorrect image attribute
 Error: <img source="error.jpeg" alt="Error Image"> uses the wrong attribute "source"
-Fix: Replace source with src to properly define the image source
+Fix: Replace source with "src" to properly define the image source
 
 15.
 Line 46: Incorrect image file type
@@ -110,9 +110,9 @@ Error: The <a> tag is not properly closed
 Fix: Add a closing </a> tag after "Link"
 
 22.
-Line 58: Incorrectly closed emphasized text
-Error: The <em> tag incorrectly surrounds the closing <p> tag
-Fix: Move the closing </em> tag before the closing </p>
+Line 58: Incorrectly closed and used Underline text
+Error: The <em> tag incorrectly surrounds the closing <p> tag and also does not underline
+Fix: replace both <em> and </em> with <u> and </u>, and also move the </p> to the outside
 
 23.
 Line 61: Incorrect list tag used for definition list
@@ -127,37 +127,37 @@ Fix: Replace the <li> tags with the proper definition list tags: <dd>Descriptive
 25.
 Line 65: Mismatched heading tag
 Error: The <h2> tag is opened but closed with an <h3>
-Fix: Change the closing </h3> to </h2>
+Fix: Change the closing <h3> to </h2>
 
 Errors in find_errors_2.html
 
 1. 
 Line 2: Missing <html> tag
 Error: The <html> tag is missing at the beginning of the document
-Fix: Add <html lang="en"> right after the <!DOCTYPE html> declaration
+Fix: Add <html lang="en"> right below the <!DOCTYPE html> declaration
 
 2.
 Line 4: Incorrect placement of <h1> tag
 Error: The <h1> tag is inside the <head>, which should only contain metadata
-Fix: Move the <h1> tag into the <body> section
+Fix: Move the <h1> tag into the <body> section (Line 7)
 
 3.
-Line 12: Missing closing <head> tag
+Line 5: Missing closing <head> tag
 Error: The <head> tag is not closed before the <body> tag
 Fix: Add a closing </head> tag just before the <body>
 
 4.
-Line 5: Incorrectly opened <body> tag
+Line 6: Incorrectly opened <body> tag
 Error: The <body> tag is missing a closing “>”
 Fix: Add “>” to <body>
 
 5.
-Line 6: Incorrect order of <html> tag
+Line 7: Incorrect order of <html> tag
 Error: The <html> tag appears inside the <body>, which is incorrect
-Fix: Remove the redundant <html> tag on line 6
+Fix: Remove the redundant <html> tag on line 7
 
 6.
-Line 7: Unused <div> tag
+Line 8: Unused <div> tag
 Error: The <div> tag is being used without a CSS
 Fix: Delete the <div> tag
 
@@ -179,7 +179,7 @@ Fix: Replace href with src
 10.
 Line 10: Incorrect file name for image
 Error: The image file name is written as "image 2.jpg" but should match "image_2.jpg"
-Fix: Correct the file name to image_2.jpg in the <img> tag
+Fix: Correct the file name to image_2.jpg
 
 11.
 Line 12: Missing opening <h2> tag
@@ -192,16 +192,16 @@ Error: The <p> tag is not opened before the closing </p> tag
 Fix: Add an opening <p> tag just before the “Text”
 
 13.
-Line 15: Invalid HTML tag (<this is a comment>)
-Error: The tag <this is a comment> is not a valid HTML
-Fix: Replace it with an HTML comment: <!-- This is a comment -->
+Line 15: Invalid comment tag (<this is a comment>)
+Error: The tag <this is a comment> is not a valid comment
+Fix: Replace it with the correct comment format: <!-- This is a comment -->
 
 14.
-Line 12: Missing closing <body> tag
+Line 16: Missing closing <body> tag
 Error: The <body> tag is not closed before the closing </html> tag
 Fix: Add a closing </body> tag just before the </html>
 
 15.
-Line 16: Misspelled closing </html> tag
+Line 17: Misspelled closing </html> tag
 Error: The closing </html> tag is misspelled as </htm>
 Fix: Correct it to </html>
