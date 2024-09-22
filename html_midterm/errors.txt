@@ -22,7 +22,7 @@ Fix: Replace language="en" with lang="en"
 4.
 Line 2: Incorrect space for <html lang="en"> tag
 Error: The <html lang="en"> tag is inside the <head> element
-Fix: Move <html lang="en"> to before <head> element, but after <!DOCTYPE html> decleration
+Fix: Move <html lang="en"> to before <head> element, but after <!DOCTYPE html> decleration (Line 2)
 
 5.
 Line 9: Missing closing </h1> tag
