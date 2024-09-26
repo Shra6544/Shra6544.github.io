@@ -1,15 +1,15 @@
 /* General styles - put these straight into your stylesheet */
-
 body {
-    margin: 0;
-  }
+  margin: 0;
+  background-color: grey;
+}
   
-  html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
-    font-size: 10px;
-    background-color: #ccc;
-  }
-  
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: black;
+}
+
   /* Selectors to be matched up with rulesets */
   
   
@@ -18,115 +18,119 @@ body {
   
   /* Rulesets to be matched up with selectors */
   
-  .card1{
-    width: 35em;
-    height: 22em;
-    margin: 5em auto;
-    background-color: red;
-    border: 0.2em solid black;
-    border-radius: 1.5em;
-  }
+.card1{
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
   
-  .card1 header{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
-    border-radius: 1.5em 1.5em 0 0;
-    height: 3em;
-    padding: 1em;
-  }
+.card1 header{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+  height: 3em;
+  padding: 1em;
+}
   
-  .card1 footer{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
-    border-radius: 0 0 1.5em 1.5em;
-    height: 3em;
-    padding: 0.5em 1em;
-  }
+.card1 footer{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+  height: 3em;
+  padding: 0.5em 1em;
+}
   
-  .card1 article img{
+.card1 article img{
+  max-height: 100%;
+  float: right;
+  margin-left: 1em;
+}
+  
+.card1 article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5em;
+}
+  
+h2, p {
+  margin: 0;
+}
+  
+.card1 header h2 {
+  font-size: 2em;
+  line-height: 2em;
+  color: black;
+}
+  
+.card1 footer p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: black;
+}
+  
+.card1 article p {
+  padding-left: 1em;
+  color: #eee;
+}
+
+.card2{
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: lightseagreen;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.card2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 10px;
+}
+
+.card2 header{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+  height: 3em;
+  padding: 1em;
+}
+  
+.card2 footer{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+  height: 3em;
+  padding: 0.5em 1em;
+}
+  
+.card2 article img{
     max-height: 100%;
     float: right;
     margin-left: 1em;
-  }
+}
   
-  .card1 article {
-    height: 12em;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.5em;
-  }
+.card2 article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5em;
+}
   
-  h2, p {
-    margin: 0;
-  }
-  
-  .card1 header h2 {
-    font-size: 2em;
-    line-height: 2em;
-  }
-  
-  .card1 footer p {
-    font-size: 1.5em;
-    line-height: 1.5em;
-  }
-  
-  .card1 article p {
-    padding-left: 1em;
-    color: #eee;
-  }
+h2, p {
+  margin: 0;
+}  
 
-  .card2{
-    width: 35em;
-    height: 22em;
-    margin: 5em auto;
-    background-color: lightseagreen;
-    border: 0.2em solid black;
-    border-radius: 1.5em;
-  }
-
-  .card2 {
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 10px;
-  }
-
-  .card2 header{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
-    border-radius: 1.5em 1.5em 0 0;
-    height: 3em;
-    padding: 1em;
-  }
+.card2 header h2 {
+  font-size: 2em;
+  line-height: 2em;
+  color: darkblue;
+}
   
-  .card2 footer{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
-    border-radius: 0 0 1.5em 1.5em;
-    height: 3em;
-    padding: 0.5em 1em;
-  }
+.card2 footer p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+  color: darkblue;
+}
   
-  .card2 article img{
-    max-height: 100%;
-    float: right;
-    margin-left: 1em;
-  }
-  
-  .card2 article {
-    height: 12em;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.5em;
-  }
-  
-  h2, p {
-    margin: 0;
-  }  
-
-  .card2 header h2 {
-    font-size: 2em;
-    line-height: 2em;
-  }
-  
-  .card2 footer p {
-    font-size: 1.125em;
-    line-height: 1.5em;
-  }
-  
-  .card2 article p {
-    padding-left: 1em;
-    color: aqua;
-  }
+.card2 article p {
+  padding-left: 1em;
+  color: aqua;
+}
