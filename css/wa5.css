@@ -3,10 +3,11 @@ body {
   margin: 0;
   background-color: #ccc;
 }
-  
+
 html {
   font-family: 'Helvetica neue', Arial, 'sans serif';
   font-size: 10px;
+  background-color: black;
 }
 
   /* Selectors to be matched up with rulesets */
