@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    position: relative;
+    max-width: 90vw;
+    overflow: visible;
+}
+
+.football-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
