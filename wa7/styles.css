@@ -30,7 +30,7 @@ body {
     padding: .5em;
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensure the nav stays on top of content */
+    z-index: 1000;
   }
   
   nav ul {
