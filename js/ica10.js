@@ -1,5 +1,10 @@
 document.getElementById('colorButton').addEventListener('click', function() {
-    document.body.style.backgroundColor = document.body.style.backgroundColor === 'lightblue' ? 'white' : 'lightblue';
+    if (document.body.style.backgroundColor === 'lightblue') {
+        document.body.style.backgroundColor = 'white';
+    }
+    else {
+        document.body.style.backgroundColor = 'lightblue';
+    }
 });
   
 document.getElementById('toggleImage').addEventListener('mouseover', function() {
