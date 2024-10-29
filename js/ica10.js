@@ -1,9 +1,9 @@
 document.getElementById('colorButton').addEventListener('click', function() {
-    if (document.body.style.backgroundColor === 'lightblue') {
+    if (document.body.style.backgroundColor === 'lightseagreen') {
         document.body.style.backgroundColor = 'white';
     }
     else {
-        document.body.style.backgroundColor = 'lightblue';
+        document.body.style.backgroundColor = 'lightseagreen';
     }
 });
   
