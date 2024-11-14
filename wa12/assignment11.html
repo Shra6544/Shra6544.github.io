@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xkcd Comic Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    #comic-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>xkcd Comic Viewer</h1>
+  <button id="random-comic-btn">Get Random Comic</button>
+
+  <div id="comic-container">
+    <h2 id="comic-title">Comic Title</h2>
+    <img id="comic-img" src="" alt="Comic image will load here" />
+    <p id="comic-date">Comic Date</p>
+  </div>
+
+  <script src="../wa12/assignment11.js"></script>
+</body>
+</html>
